@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshay Kumar</title>
+    <meta name="description"
+        content="Portfolio of a Computer Science Engineer specializing in Data Science, Java, and Python.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="particles-bg"></canvas>
+    <nav>
+        <div class="container nav-container">
+            <a href="#home" class="logo">Akshay Kumar<span class="gradient-text"></span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home">
+            <div class="container">
+                <div class="hero-content">
+                    <h2 class="gradient-text">Hello, I'm Akshay Kumar</h2>
+                    <h1 class="hero-title">Code • Learn • Build <br></h1>
+                    <p class="hero-subtitle"> Computer Science Engineer| Specializing in Data Science, AI/ML, and
+                        Software Development.</p>
+                    <div class="cta-group">
+                        <a href="#projects" class="btn">View Work</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+                    <div class="tech-stack-hero">
+                        <span>Stack:</span>
+                        <i class="fab fa-python"></i>
+                        <i class="fab fa-java"></i>
+                        <i class="fas fa-database"></i>
+                        <i class="fab fa-react"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title"><span>About Me</span></h2>
+                <div class="about-grid">
+                    <div class="about-image">
+                        <!-- Placeholder for user image, using a gradient generic div for now or FontAwesome icon -->
+                        <div
+                            style="width: 100%; height: 300px; background: linear-gradient(45deg, #121212, #1a1a1a); border-radius: 20px; display: flex; align-items: center; justify-content: center; border: 1px solid var(--glass-border);">
+                            <i class="fas fa-user-astronaut" style="font-size: 5rem; color: var(--accent-primary);"></i>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <p>Final-year Computer Science Engineering student with a strong foundation in programming, data
+                            structures, and problem-solving. Skilled in Python, Java, and C, with growing interest in
+                            data science and software development.
+                            Passionate about building efficient solutions, learning emerging technologies, and applying
+                            analytical thinking to real-world problems.
+                            Open to internship and entry-level opportunities in software development, data analytics,
+                            and related fields.</p>
+                        <p>My journey involves deep diving into Machine Learning, building AI-powered applications, and
+                            developing scalable solutions.
+                            I am an active participant in hackathons (SIH'25 Finalist) and community initiatives.</p>
+                        <ul
+                            style="list-style: none; margin-top: 1rem; display: flex; flex-direction: column; gap: 0.5rem;">
+                            <li><i class="fas fa-check-circle"
+                                    style="color: var(--accent-primary); margin-right: 10px;"></i> Data Science & AI/ML
+                            </li>
+                            <li><i class="fas fa-check-circle"
+                                    style="color: var(--accent-primary); margin-right: 10px;"></i> C, Java, Python</li>
+                            <li><i class="fas fa-check-circle"
+                                    style="color: var(--accent-primary); margin-right: 10px;"></i> Problem Solver</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <div class="container">
+                <h2 class="section-title"><span>Technical Skills</span></h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fas fa-code skill-icon"></i>
+                        <h3>Languages</h3>
+                        <p>C, Java, Python</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-brain skill-icon"></i>
+                        <h3>AI / ML</h3>
+                        <p>TensorFlow, PyTorch, OpenCV, YOLO v8, Scikit-Learn</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-chart-bar skill-icon"></i>
+                        <h3>Data Analysis</h3>
+                        <p>Pandas, NumPy, Matplotlib, Seaborn, Tableau, Power BI</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-database skill-icon"></i>
+                        <h3>Databases</h3>
+                        <p>MySQL</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-tools skill-icon"></i>
+                        <h3>Tools</h3>
+                        <p>Git, VS Code, Jupyter, Google Colab</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="container">
+                <h2 class="section-title"><span>Featured Projects</span></h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Streamlit</span>
+                                <span class="tag">ML</span>
+                            </div>
+                            <h3>Employee Salary Prediction App</h3>
+                            <p style="color: var(--text-secondary); margin-bottom: 1rem; font-size: 0.9rem;">
+                                Developed an app using Python and Streamlit that predicts employee salaries based on
+                                input features. Handled data preprocessing, model development, and deployment.
+                            </p>
+                            <a href="https://github.com/a4kshay/Employee-Salary-Prediction" class="btn-outline"
+                                style="font-size: 0.8rem; padding: 8px 20px;">View
+                                Project</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">AI/ML</span>
+                                <span class="tag">OpenCV</span>
+                                <span class="tag">IoT</span>
+                            </div>
+                            <h3>AI-Powered Cotton Picking Machine</h3>
+                            <p style="color: var(--text-secondary); margin-bottom: 1rem; font-size: 0.9rem;">
+                                A portable, battery/solar-powered device using OpenCV & TensorFlow to selectively detect
+                                and pick mature cotton bolls. Developed for Smart India Hackathon.
+                            </p>
+                            <a href="https://github.com/a4kshay/SIH-2025-Low-Cost-AI-Powered-Cotton-Picking-Machine"
+                                class="btn-outline" style="font-size: 0.8rem; padding: 8px 20px;">View
+                                Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Achievements Section -->
+        <section id="education" style="background-color: var(--bg-secondary);">
+            <div class="container">
+                <h2 class="section-title"><span>Education & Achievements</span></h2>
+
+                <div class="education-grid">
+                    <!-- Education -->
+                    <div>
+                        <h3 class="gradient-text" style="margin-bottom: 2rem; font-size: 1.8rem;">Education</h3>
+                        <div class="education-list">
+                            <div class="education-item">
+                                <h4 style="font-size: 1.2rem;">Computer Science and Engineering</h4>
+                                <p style="color: var(--accent-primary); font-size: 0.9rem;">2022 - 2026</p>
+                                <p style="color: var(--text-secondary);">Government Engineering College, Palamu</p>
+                                <p style="color: var(--text-secondary); font-size: 0.9rem;"></p>
+                            </div>
+                            <div class="education-item">
+                                <h4 style="font-size: 1.2rem;">Senior Secondary (12th)</h4>
+                                <p style="color: var(--accent-primary); font-size: 0.9rem;">2021 - 2022</p>
+                                <p style="color: var(--text-secondary);">JPK Inter College of Competence</p>
+                                <p style="color: var(--text-secondary); font-size: 0.9rem;">79.40%</p>
+                            </div>
+                            <div class="education-item">
+                                <h4 style="font-size: 1.2rem;">Secondary (10th)</h4>
+                                <p style="color: var(--accent-primary); font-size: 0.9rem;">2019 - 2020</p>
+                                <p style="color: var(--text-secondary);">SRK DAV Public School, Suriya</p>
+                                <p style="color: var(--text-secondary); font-size: 0.9rem;">79.40%</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Achievements & Certs -->
+                    <div>
+                        <h3 class="gradient-text" style="margin-bottom: 2rem; font-size: 1.8rem;">Honors &
+                            Certifications</h3>
+                        <ul class="achievements-list">
+                            <li style="display: flex; gap: 1rem; align-items: start;">
+                                <i class="fas fa-trophy" style="color: goldenrod; margin-top: 5px;"></i>
+                                <div>
+                                    <h4>SIH'25 Finalist</h4>
+                                    <p style="color: var(--text-secondary); font-size: 0.9rem;">Smart India Hackathon
+                                        Finalist with the Cotton Picking Machine project.</p>
+                                </div>
+                            </li>
+                            <li style="display: flex; gap: 1rem; align-items: start;">
+                                <i class="fas fa-medal" style="color: silver; margin-top: 5px;"></i>
+                                <div>
+                                    <h4>Winner Internal Hackathon, 2025</h4>
+                                    <p style="color: var(--text-secondary); font-size: 0.9rem;">GEC Palamu</p>
+                                </div>
+                            </li>
+                            <li style="display: flex; gap: 1rem; align-items: start;">
+                                <i class="fas fa-certificate"
+                                    style="color: var(--accent-primary); margin-top: 5px;"></i>
+                                <div>
+                                    <h4>Software Engineering Virtual Experience</h4>
+                                    <p style="color: var(--text-secondary); font-size: 0.9rem;">Accenture Nordics -
+                                        Forage</p>
+                                </div>
+                            </li>
+                            <li style="display: flex; gap: 1rem; align-items: start;">
+                                <i class="fas fa-certificate"
+                                    style="color: var(--accent-primary); margin-top: 5px;"></i>
+                                <div>
+                                    <h4>Artificial Intelligence Fundamentals</h4>
+                                    <p style="color: var(--text-secondary); font-size: 0.9rem;">IBM SkillsBuild</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title"><span>Get In Touch</span></h2>
+                <div class="contact-container">
+                    <p style="color: var(--text-secondary); margin-bottom: 2rem;">
+                        Interested in collaborating or have a question? Feel free to reach out!
+                    </p>
+
+                    <div style="margin-bottom: 2rem; display: flex; flex-direction: column; gap: 1rem;">
+                        <a href="mailto:akshay141shiv@gmail.com" class="contact-link">
+                            <i class="fas fa-envelope"></i> akshay141shiv@gmail.com
+                        </a>
+                        <a href="tel:+919142701486" class="contact-link">
+                            <i class="fas fa-phone"></i> +91 9142701486
+                        </a>
+                    </div>
+
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                    <div class="social-links">
+                        <a href="https://github.com/a4kshay" style="color: var(--text-secondary);"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/akshattt/" style="color: var(--text-secondary);"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="G-mail:akshay141Shiv@gmail.com" style="color: var(--text-secondary);"><i
+                                class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Akshay. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
