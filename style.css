@@ -1265,6 +1265,7 @@ footer .container {
 .dsa-card-footer {
   padding: 0 2rem 1.8rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 0.75rem;
 }
